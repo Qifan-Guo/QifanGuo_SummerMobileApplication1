@@ -1,23 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-    <Button
+    <RelativeLayout
+        android:id="@+id/TopMenuBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/darker_gray">
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_background"
+            android:id="@+id/MainMenuButton"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/bt_pic_bg"
+            android:layout_alignParentRight="true"
+            android:id="@+id/ProfileButton"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Summer 2018"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/MainFragmentLayout"
+        android:background="@android:color/white"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Click Me"
-        />
+        android:layout_below="@id/TopMenuBar"
+        android:layout_above="@id/buttonToolBar"
+        android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white">
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:background="@android:color/holo_blue_bright"
+            android:text="demo"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:id="@+id/DemoButton"
+            />
+        <View
+            android:layout_width="0.1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+        </View>
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:text="work"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:id="@+id/WorkButton"
+            />
+
+    </LinearLayout>
+</RelativeLayout>
