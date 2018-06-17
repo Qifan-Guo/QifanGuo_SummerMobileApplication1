@@ -6,12 +6,11 @@ import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.view.View;
 
 import com.qifan.qifanguo_summermobileapplication1.Fragment.viewPagerRed;
 import com.qifan.qifanguo_summermobileapplication1.Fragment.viewPagerGreen;
 import com.qifan.qifanguo_summermobileapplication1.Fragment.viewPagerBlue;
-import com.qifan.qifanguo_summermobileapplication1.adapter.ViewPagerAdapter;
+import com.qifan.qifanguo_summermobileapplication1.Adapter.ViewPagerAdapter;
 
 import java.util.ArrayList;
 

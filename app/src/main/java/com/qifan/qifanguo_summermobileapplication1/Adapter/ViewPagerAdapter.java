@@ -1,4 +1,4 @@
-package com.qifan.qifanguo_summermobileapplication1.adapter;
+package com.qifan.qifanguo_summermobileapplication1.Adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
