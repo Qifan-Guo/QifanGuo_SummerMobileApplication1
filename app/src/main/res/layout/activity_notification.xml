@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NotificationActivity"
+    android:background="@android:color/white">
+
+    <Button
+        android:id="@+id/smallNotification"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:background="@android:color/holo_red_light"
+        android:shadowColor="@android:color/darker_gray"
+        android:text="Small Notification"
+        android:textColor="@android:color/black" />
+    <Button
+        android:background="@android:color/holo_blue_bright"
+        android:id="@+id/bigNotification"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Big Notification"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/black"/>
+    <Button
+        android:background="@android:color/holo_orange_light"
+        android:id="@+id/picNotification"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Pic Notification"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/black"
+        />
+
+</LinearLayout>

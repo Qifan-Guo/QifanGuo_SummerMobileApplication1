@@ -14,8 +14,10 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.qifan.qifanguo_summermobileapplication1.AdvanceListView;
 import com.qifan.qifanguo_summermobileapplication1.DemoBox;
 import com.qifan.qifanguo_summermobileapplication1.NinePatchActivity;
+import com.qifan.qifanguo_summermobileapplication1.NotificationActivity;
 import com.qifan.qifanguo_summermobileapplication1.R;
 import com.qifan.qifanguo_summermobileapplication1.ScalePagerActivity;
 import com.qifan.qifanguo_summermobileapplication1.ViewPagerActivity;
@@ -60,6 +62,14 @@ public class DemoFragment extends Fragment {
                         break;
                     case 2 :
                         intent = new Intent(getActivity(),NinePatchActivity.class);
+                        startActivity(intent);
+                        break;
+                    case 3:
+                        intent = new Intent(getActivity(),NotificationActivity.class);
+                        startActivity(intent);
+                        break;
+                    case 4:
+                        intent=new Intent(getActivity(),AdvanceListView.class);
                         startActivity(intent);
                         break;
 

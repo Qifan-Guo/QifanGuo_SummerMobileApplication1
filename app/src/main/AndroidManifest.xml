@@ -16,9 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ViewPagerActivity"/>
-        <activity android:name=".ScalePagerActivity"/>
-        <activity android:name=".NinePatchActivity"/>
+        <activity android:name=".ViewPagerActivity" />
+        <activity android:name=".ScalePagerActivity" />
+        <activity android:name=".NinePatchActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".AdvanceListView"></activity>
     </application>
 
 </manifest>
