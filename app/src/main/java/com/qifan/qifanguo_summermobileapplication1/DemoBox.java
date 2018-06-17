@@ -9,7 +9,7 @@ public final class DemoBox {
                 "9-Patch",
                 "Notification",
                 "AdvanceListView",
-                "AdvanceViewPager",
+                "AdvanceListView2",
                 "LaunchMode",
                 "RadioGroup",
                 "CheckBox",

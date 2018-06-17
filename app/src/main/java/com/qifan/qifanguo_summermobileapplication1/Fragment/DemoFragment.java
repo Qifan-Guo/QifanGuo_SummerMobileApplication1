@@ -15,6 +15,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.qifan.qifanguo_summermobileapplication1.AdvanceListView;
+import com.qifan.qifanguo_summermobileapplication1.AdvanceListView2;
 import com.qifan.qifanguo_summermobileapplication1.DemoBox;
 import com.qifan.qifanguo_summermobileapplication1.NinePatchActivity;
 import com.qifan.qifanguo_summermobileapplication1.NotificationActivity;
@@ -70,6 +71,10 @@ public class DemoFragment extends Fragment {
                         break;
                     case 4:
                         intent=new Intent(getActivity(),AdvanceListView.class);
+                        startActivity(intent);
+                        break;
+                    case 5:
+                        intent=new Intent(getActivity(),AdvanceListView2.class);
                         startActivity(intent);
                         break;
 

@@ -20,7 +20,8 @@
         <activity android:name=".ScalePagerActivity" />
         <activity android:name=".NinePatchActivity" />
         <activity android:name=".NotificationActivity" />
-        <activity android:name=".AdvanceListView"></activity>
+        <activity android:name=".AdvanceListView" />
+        <activity android:name=".AdvanceListView2"></activity>
     </application>
 
 </manifest>
