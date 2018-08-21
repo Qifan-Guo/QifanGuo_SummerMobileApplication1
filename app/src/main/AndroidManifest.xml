@@ -21,7 +21,16 @@
         <activity android:name=".NinePatchActivity" />
         <activity android:name=".NotificationActivity" />
         <activity android:name=".AdvanceListView" />
-        <activity android:name=".AdvanceListView2"></activity>
+        <activity android:name=".AdvanceListView2" />
+        <activity android:name=".Fragment.viewPagerState" />
+        <activity android:name=".CustomDialog" />
+        <activity android:name=".quiz2_Activity" />
+        <activity android:name=".HandlerActivity" />
+        <activity android:name=".AnimationActivity" />
+        <activity android:name=".GestureActivity" />
+        <activity android:name=".MyAnimator" />
+        <activity android:name=".Quiz4" />
+        <activity android:name=".Quiz5"></activity>
     </application>
 
 </manifest>

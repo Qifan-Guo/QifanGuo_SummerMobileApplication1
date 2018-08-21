@@ -5,15 +5,65 @@
     android:layout_height="match_parent"
     tools:context=".Fragment.WorkFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/top"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="60dp"
         android:text="hello Work Fragment"
-        android:textColor="@android:color/holo_red_light"
-        android:textSize="30sp"
+        android:textColor="@android:color/white"
         android:textAlignment="center"
         android:gravity="center"
-        android:background="@android:color/white"/>
+        android:layout_marginBottom="10dp"
+        android:background="#4286f4"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button1"
+            />
+        <Button
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button1"
+            />
+        <Button
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button1"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/workButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Quiz4"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/roundcorner"
+        />
+
+    <TextView
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="hello Work Fragment"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:background="#4286f4"/>
+
+
 
 </FrameLayout>

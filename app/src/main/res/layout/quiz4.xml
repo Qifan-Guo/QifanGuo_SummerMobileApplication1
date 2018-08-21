@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="400dp">
+
+    <RadioGroup
+        android:id="@+id/quiz4_radioGroup"
+        android:layout_weight="7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/quiz4_yes"
+            android:text="Yes"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+        <RadioButton
+            android:id="@+id/quiz4_no"
+            android:text="No"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+        <RadioButton
+            android:id="@+id/quiz4_exit"
+            android:text="Exit"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+    </RadioGroup>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="3">
+        <Button
+            android:id="@+id/quiz4_ok"
+            android:text="Okay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CustomDialog">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:text="One Plus One Equals?"/>
+    <RadioGroup
+        android:id="@+id/RadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_marginBottom="20dp"
+            android:id="@+id/RadioButton1"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ten"/>
+        <RadioButton
+            android:layout_marginBottom="20dp"
+            android:id="@+id/RadioButton2"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nine"/>
+        <RadioButton
+            android:layout_marginBottom="20dp"
+            android:id="@+id/RadioButton3"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seven"/>
+        <RadioButton
+            android:layout_marginBottom="20dp"
+            android:id="@+id/RadioButton4"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Three"/>
+        <RadioButton
+            android:layout_marginBottom="20dp"
+            android:id="@+id/RadioButton5"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Two"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+
+
+</LinearLayout>

@@ -10,11 +10,13 @@ public final class DemoBox {
                 "Notification",
                 "AdvanceListView",
                 "AdvanceListView2",
-                "LaunchMode",
-                "RadioGroup",
-                "CheckBox",
-                "Dialogs",
-                "Handler"
+                "ViewPagerState",
+                "Custom Dialog",
+                "HandlerActivity",
+                "AnimationActivity",
+                "Gesture",
+                "Animator"
+
         };
     }
 }
