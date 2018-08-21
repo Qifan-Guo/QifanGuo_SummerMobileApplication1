@@ -1,4 +1,4 @@
-# Andorid Features Project
+# Android Features Project
 
 ### This Project is built for self-reference for All Basic Android Features 
 <img width="219" alt="screen shot 2018-08-21 at 5 48 18 pm" src="https://user-images.githubusercontent.com/24483249/44430988-6dad7200-a56a-11e8-8cb6-f3195bd7ae22.png">
